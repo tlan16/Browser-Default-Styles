@@ -20,5 +20,8 @@
     "postcss-safe-parser": "^7.0.1",
     "@types/postcss-safe-parser": "^5.0.4",
     "tsx": "^4.19.3"
+  },
+  "engines": {
+    "node": "^22.0.0"
   }
 }
