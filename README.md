@@ -1,6 +1,6 @@
 # Browser-Default-Styles
 
-Search against any element for standardized and default styles from all major rendering engines (WebKit, Blink, Gecko, Trident).
+Search against any element for standardized and default styles from all major rendering engines (WebKit, Blink, Gecko).
 [fork of BrowserDefaultStyles.com](https://tlan16.github.io/Browser-Default-Styles)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/UncaughtTypeError/Browser-Default-Styles/blob/master/LICENSE)
