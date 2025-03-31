@@ -6,12 +6,15 @@ on:
   push:
     branches: ["master"]
 
+  schedule:
+    - cron: '0 0 * * 1'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -48,3 +51,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: EndBug/add-and-commit@v9
+        with:
+          push: true
+      - uses: gautamkrishnar/keepalive-workflow@v2
