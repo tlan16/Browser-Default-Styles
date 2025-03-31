@@ -5,6 +5,8 @@ Search against any element for standardized and default styles from all major re
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/UncaughtTypeError/Browser-Default-Styles/blob/master/LICENSE)
 
+It repo is setup to run weekly. Each run fetches the latest style sheet and browser compatability spec. 
+
 ### Sources:
 
 - Blink: [chromium.googlesource.com](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/css/html.css)
