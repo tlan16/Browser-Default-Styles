@@ -1,6 +1,7 @@
 {
   "name": "default-element-styles",
   "version": "1.0.0",
+  "type": "module",
   "description": "A web app that will allow you to search against any element for standardized and default styles from all major rendering engines (WebKit, Blink, Gecko, Trident).",
   "main": "css-defaults.js",
   "scripts": {
@@ -10,10 +11,14 @@
   "author": "Nathan G. J. Shepherd",
   "license": "MIT",
   "dependencies": {
-    "mdn-browser-compat-data": "latest"
   },
   "devDependencies": {
-    "ecstatic": ">=4.1.3",
-    "http-server": "^0.12.3"
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.13.14",
+    "typescript": "5.8.2",
+    "postcss": "^8.5.3",
+    "postcss-safe-parser": "^7.0.1",
+    "@types/postcss-safe-parser": "^5.0.4",
+    "tsx": "^4.19.3"
   }
 }
