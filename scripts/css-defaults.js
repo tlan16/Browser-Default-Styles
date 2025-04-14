@@ -734,7 +734,8 @@ export const cssDefaults = [
     },
     "webkit": {
       "display": "inline-block",
-      "text-align": "initial"
+      "text-align": "initial",
+      "overflow": "hidden"
     },
     "blink": {
       "display": "inline-block"
@@ -2713,13 +2714,14 @@ export const cssDefaults = [
     }
   },
   {
-    "element": "video > .caption-box",
+    "element": "video > .caption-box:-moz-native-anonymous",
     "defaults": {},
     "trident": {},
     "gecko": {
       "width": "100%",
       "height": "100%",
-      "position": "relative"
+      "position": "relative",
+      "pointer-events": "none"
     }
   },
   {
@@ -4812,10 +4814,19 @@ export const cssDefaults = [
     }
   },
   {
+    "element": "input[type=\"color\"]::-internal-color-swatch-overlay",
+    "defaults": {},
+    "trident": {},
+    "webkit": {
+      "appearance": "auto"
+    }
+  },
+  {
     "element": "input[type=\"color\"]::-webkit-color-swatch-wrapper",
     "defaults": {},
     "trident": {},
     "webkit": {
+      "appearance": "auto",
       "display": "flex",
       "#if": "inherit",
       "padding": "2px",
@@ -4831,6 +4842,7 @@ export const cssDefaults = [
     "defaults": {},
     "trident": {},
     "webkit": {
+      "appearance": "auto",
       "background-color": "#000000",
       "#if": "inherit",
       "#else": "2px",
