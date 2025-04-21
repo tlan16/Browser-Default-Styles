@@ -695,7 +695,8 @@ export const cssDefaults = [
       "display": "block",
       "font-family": "monospace",
       "white-space": "pre",
-      "margin": "1__qem 0"
+      "margin-block": "1__qem",
+      "margin-inline": "0"
     },
     "blink": {
       "display": "block",
@@ -867,7 +868,8 @@ export const cssDefaults = [
       "display": "block",
       "font-family": "monospace",
       "white-space": "pre",
-      "margin": "1__qem 0"
+      "margin-block": "1__qem",
+      "margin-inline": "0"
     },
     "blink": {
       "display": "block",
@@ -891,7 +893,8 @@ export const cssDefaults = [
       "display": "block",
       "font-family": "monospace",
       "white-space": "pre",
-      "margin": "1__qem 0"
+      "margin-block": "1__qem",
+      "margin-inline": "0"
     },
     "blink": {
       "display": "block",
@@ -1136,7 +1139,8 @@ export const cssDefaults = [
       "display": "block",
       "font-family": "monospace",
       "white-space": "pre",
-      "margin": "1__qem 0"
+      "margin-block": "1__qem",
+      "margin-inline": "0"
     },
     "blink": {
       "display": "block",
